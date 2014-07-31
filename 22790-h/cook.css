@@ -1,0 +1,210 @@
+body {margin-left: 12.5%; margin-right: 12.5%; max-width: 30em;}
+
+div.intro, div.maintext, div.index, div.advert
+{margin-top: 3em; margin-bottom: 3em;}
+
+div.inset {margin-left: 2em; margin-right: 1em;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em; clear: both;}
+hr.mid {width: 40%;}
+hr.tiny {width: 20%;}
+
+hr.above {margin-top: 3em;}
+hr.below {margin-top: 1.5em;}
+
+
+sup {font-size: 75%; line-height: 50%;}
+em {font-style: normal;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.2; margin-top: 0em;
+margin-bottom: .5em; margin-left: 1em; margin-right: 1em;}
+
+h1 {font-size: 250%;}
+h2 {font-size: 200%;}
+h3 {font-size: 167%;}
+h4 {font-size: 125%;}
+h5 {font-size: 100%;}
+h6 {font-size: 85%;}
+
+h3.long, h4.long, h5.long {text-align: left; margin-left: 1.5em;
+text-indent: -1.5em;}
+
+div.rightfloat {float: right;}
+div.leftfloat {float: left;}
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+p.ital {font-style: italic;}
+p.right {text-align: right; margin-right: 2em;}
+p.center {text-align: center;}
+p.inset {margin-top: .25em; margin-left: 1em; margin-right: 1em;}
+
+
+/* pictures */
+
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;
+white-space: nowrap;}
+p.illustration img {vertical-align: middle;}
+
+p.decoration {background-repeat: repeat-x;
+background-image: url("images/border.gif");
+height: 42px; margin: 1em 10%;}  /* 115 * 42 px */
+
+img + img {padding-left: 1em;}
+
+span.rightfloat {float: right; clear: right; margin: .5em 0 .5em .5em;}
+span.leftfloat {float: left; clear: left; margin: .5em .5em .5em 0;}
+
+
+/* anchors */
+
+a {text-decoration: none;}
+a.tag {vertical-align: .3em; font-size: 80%; line-height: .1em;
+padding-left: .25em;}
+a.unseen {color: inherit; background-color: inherit;}
+
+div.contents a:link, div.contents a:visited {background-color: inherit;
+color: #003; font-weight: bold;}
+div.index a:link, div.index a:visited {background-color: inherit;
+color: #009;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+
+td {vertical-align: top; text-align: left; padding: 0em;}
+td.number {text-align: right; white-space: nowrap;}
+
+
+/* contents */
+
+div.contents {font-family: sans-serif; font-size: 90%; margin: 3em 0em;
+border: 3px ridge #AAD; padding: .5em 1em;}
+
+div.contents p {margin-left: 1.5em; text-indent: -1.5em;
+line-height: 1.5;}
+div.contents p.inset {margin-left: 3em;}
+div.contents p.inset2 {margin-left: 4.5em;}
+div.contents p.ital {margin-left: 0em; text-indent: 0em;}
+
+
+/* introductory */
+
+table.titlepage {border-collapse: collapse; width: 24em;
+margin-top: 2em; margin-bottom: 2em;}
+
+table.titlepage td {border: 2px solid #000; padding: 0em .5em .5em;}
+
+table.titlepage h5 {margin-top: .5em;}
+table.titlepage h6 {letter-spacing: .2em; margin-top: .5em;}
+
+table.titlepage p {margin-left: 1em; text-indent: -1em;}
+table.titlepage p.center {margin-left: 0em; text-indent: -0em;
+text-align: center;}
+
+table.menu {border-spacing: 1em 0em; margin: 0em;}
+table.menu td {padding: 0em; width: 50%;}
+table.menu p {margin-top: 0em; margin-left: 1em; text-indent: -1em;}
+table.menu p.nonum {text-indent: 0em;}
+
+div.poem {margin-top: .5em; margin-left: 2em;}
+div.poem p {margin-top: 0em; margin-left: 4em; text-indent: -4em;}
+div.poem p.indent {margin-left: 5em;}
+
+div.intro h4 {font-style: italic; line-height: 1.2; margin-top: 1em;}
+div.intro h5 {font-size: 105%; font-style: italic; line-height: 1.2;
+margin-top: 1em;}
+div.intro h5.left {text-align: left; margin-top: 1em;}
+
+
+/* index */
+
+table.index p {margin-top: 0em; margin-left: 1em; text-indent: -1em;
+line-height: normal; font-style: italic;}
+
+table.index td.number {vertical-align: bottom;}
+td.letterhead {padding-left: 40%; font-weight: bold; padding-top: 1em;}
+
+table.index span.titlecap {font-size: 250%; line-height: normal;
+font-style: normal; margin: 1em 0em 0em -.25em;}
+
+
+/* advertising */
+
+div.advert h5 {margin-top: 1em;}
+div.advert p {font-size: 92%;}
+
+
+/* body text */
+
+div.maintext h3 {margin: 1em;}
+div.maintext h3.long {text-align: left; margin-left: 1.5em;
+text-indent: -1.5em;}
+div.maintext h3.subhead {font-style: italic;}
+div.maintext h3.fish {font-size: 133%;}
+div.maintext h3 em, div.maintext h4 em {letter-spacing: .2em;
+padding-left: .2em;}
+
+div.maintext h4, div.advert h4 {font-size: 120%; font-style: italic; line-height: 1.2; margin-top: 1em;}
+div.maintext h4.plain {font-size: 125%; font-style: normal;}
+div.maintext h5 {font-size: 105%; font-style: italic; line-height: 1.2;
+margin-top: 1em;}
+div.maintext h5.plain {font-size: 100%; font-style: normal;}
+
+div.maintext p.ital {margin-top: .75em; margin-bottom: .75em;}
+
+
+/* floating paragraph or drop cap */
+
+span.firstletter {float: left; margin-top: -0.2em;
+margin-bottom: -.2em; margin-right: .1em; font-size: 250%;
+font-style: normal;}
+span.firstletter.large {font-size: 350%;}
+div.poem span.firstletter {padding-right: 1.5em;}
+
+
+/* text formatting */
+
+.smaller {font-size: 0.85em;}
+.smallcaps {font-variant: small-caps;}
+.extended {letter-spacing: 0.2em; padding-left: .2em;}
+
+
+/* correction popup */
+
+ins {text-decoration: none;}
+ins.correction {border-bottom: thin dotted red;}
+ins.punct {border-bottom: thin dotted #666;}
+
+
+/* page number */
+
+.pagenum {position: absolute; right: 92%; font-size: 90%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+.folionum {position: absolute; right: 2%; font-size: 90%;
+font-style: normal; text-align: left; text-indent: 0em;}
+.folionum.added, .pagenum.added {font-size: 80%;}
+.folionum.added:before, .pagenum.added:before {content: "[";}
+.folionum.added:after, .pagenum.added:after {content: "]";}
+
+.pagenum.wrong {font-size: 80%;}
+.pagenum.wrong:before {content: "(";}
+.pagenum.wrong:after {content: ")";}
+.pagenum.corrected {padding-top: 1em; font-style: italic; right: 93%;}
+
+
+/* Transcriber's Note */
+
+div.mynote {background-color: #DDE; color: #000; padding: .5em 1em 1em;
+margin: 1em;}
+p.mynote, td.mynote {background-color: #DDE; color: #000; padding: 1em;
+margin: 1em; font-family: sans-serif; font-size: 90%;}
+div.mynote p {font-family: sans-serif; font-size: 90%;}
+div.mynote a {text-decoration: none;}
+
+div.endnote {font-family: sans-serif; font-size: 90%; margin: 3em 0em; border: 3px ridge #AAD; padding: 1em 1em .5em;}
+div.endnote p.illustration {text-align: left; margin: 1em;}
+div.endnote p + h4 {margin-top: 2em;}
