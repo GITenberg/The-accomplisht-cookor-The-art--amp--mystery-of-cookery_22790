@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '25544'
     url: http://www.gutenberg.org/2009/agents/25544
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/22790#The-accomplisht-cookor-The-art--amp--mystery-of-cookery
 gutenberg_bookshelf: Cookery
 gutenberg_issued: '2007-09-28'
 gutenberg_type: Text
